@@ -44,7 +44,7 @@ function App() {
   }
 
   return (
-    <>
+    <div id="app">
       <nav>
         <NavLink to={ROUTES.CONTACTS} activeClassName="active">
           Contacts
@@ -68,7 +68,7 @@ function App() {
           </Route>
         </Switch>
       </main>
-    </>
+    </div>
   );
 }
 
